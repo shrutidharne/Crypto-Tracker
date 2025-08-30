@@ -2,17 +2,8 @@
 
 # 🚀 Crypto Tracker
 
-[![GitHub stars](https://img.shields.io/github/stars/Hari-hara7/Crypto?style=for-the-badge&logo=github&color=gold)](https://github.com/Hari-hara7/Crypto/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Hari-hara7/Crypto?style=for-the-badge&logo=github&color=blue)](https://github.com/Hari-hara7/Crypto/network)
-[![GitHub issues](https://img.shields.io/github/issues/Hari-hara7/Crypto?style=for-the-badge&logo=github&color=red)](https://github.com/Hari-hara7/Crypto/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Hari-hara7/Crypto?style=for-the-badge&logo=github&color=green)](https://github.com/Hari-hara7/Crypto/pulls)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Hari-hara7/Crypto?style=for-the-badge&logo=git&color=purple)](https://github.com/Hari-hara7/Crypto/commits)
-[![GitHub contributors](https://img.shields.io/github/contributors/Hari-hara7/Crypto?style=for-the-badge&logo=github&color=orange)](https://github.com/Hari-hara7/Crypto/graphs/contributors)
-[![License](https://img.shields.io/github/license/Hari-hara7/Crypto?style=for-the-badge&logo=gnu&color=yellow)](https://github.com/Hari-hara7/Crypto/blob/main/LICENSE)
 
 **A comprehensive, modern cryptocurrency tracking and social platform built with cutting-edge web technologies**
-
-[🔗 Live Demo](#) | [📖 Documentation](#table-of-contents) | [🐛 Report Bug](https://github.com/Hari-hara7/Crypto/issues) | [💡 Request Feature](https://github.com/Hari-hara7/Crypto/issues)
 
 </div>
 
@@ -445,11 +436,7 @@ graph TB
 
 </details>
 
----
 
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help make Crypto Tracker even better:
 
 ### 🌟 Ways to Contribute
 
@@ -493,11 +480,7 @@ cd ../backend
 npm test
 ```
 
-#### 5️⃣ Submit Pull Request
-- Push your changes to your fork
-- Create a Pull Request with a clear description
-- Link any related issues
-- Ensure CI/CD checks pass
+
 
 ### 🎯 Code Style Guidelines
 
@@ -506,55 +489,7 @@ npm test
 - **Prettier**: Format code consistently
 - **Commit Messages**: Use conventional commit format
 
-```bash
-# Example commit messages
-feat: add real-time price alerts
-fix: resolve WebSocket connection issues
-docs: update installation guide
-style: improve button component styling
 ```
-
-### 👥 Contributors
-
-<div align="center">
-
-[![Contributors](https://contrib.rocks/image?repo=Hari-hara7/Crypto)](https://github.com/Hari-hara7/Crypto/graphs/contributors)
-
-</div>
-
----
-
-## 📄 License
-
-This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
-
-### 📋 License Summary
-
-- ✅ **Commercial Use**: Permitted with conditions
-- ✅ **Modification**: Allowed
-- ✅ **Distribution**: Allowed
-- ✅ **Private Use**: Allowed
-- ❌ **Patent Use**: Not granted
-- ⚠️ **Liability**: Limited
-- ⚠️ **Warranty**: None provided
-
-### 🤝 What This Means
-
-You are free to:
-- Use this software for any purpose
-- Study how the program works
-- Modify the software to suit your needs
-- Share the software with others
-
-**Requirements**: Any derivative work must also be open-source under GPL v3.0
-
----
-
-## ❓ FAQ
-
-<details>
-<summary><strong>🔧 Installation & Setup</strong></summary>
-
 **Q: What Node.js version do I need?**
 A: Node.js 16.x or higher is required. We recommend using the latest LTS version.
 
@@ -619,73 +554,3 @@ A:
 **Q: I'm getting CORS errors**
 A: Ensure the backend server is running and CORS is properly configured for your domain.
 
-</details>
-
----
-
-## 💬 Community & Contact
-
-<div align="center">
-
-### 🌟 Join Our Community
-
-[![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?style=for-the-badge&logo=github)](https://github.com/Hari-hara7/Crypto/discussions)
-[![Discord](https://img.shields.io/badge/Discord-Join_Us-7289da?style=for-the-badge&logo=discord&logoColor=white)](#)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow_Us-1da1f2?style=for-the-badge&logo=twitter&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-
-</div>
-
-### 📞 Get Support
-
-- 🐛 **Bug Reports**: [Create an Issue](https://github.com/Hari-hara7/Crypto/issues/new?template=bug_report.md)
-- 💡 **Feature Requests**: [Request Feature](https://github.com/Hari-hara7/Crypto/issues/new?template=feature_request.md)
-- 💬 **General Discussion**: [GitHub Discussions](https://github.com/Hari-hara7/Crypto/discussions)
-- 📧 **Direct Contact**: [Email Us](mailto:support@cryptotracker.dev)
-
-### 🚀 Stay Updated
-
-- ⭐ **Star the Repository** to stay informed about updates
-- 👀 **Watch releases** for new version notifications
-- 📧 **Subscribe to our newsletter** for development updates
-- 🐦 **Follow us on social media** for news and tips
-
-### 🤝 Community Guidelines
-
-We are committed to fostering a welcoming and inclusive community. Please:
-
-- ✅ Be respectful and constructive in discussions
-- ✅ Help others learn and grow
-- ✅ Share knowledge and experiences
-- ❌ No spam, self-promotion, or off-topic content
-- ❌ No harassment or discrimination
-
----
-
-<div align="center">
-
-### 🙏 Acknowledgments
-
-Special thanks to all contributors, the open-source community, and the following services:
-
-[![CoinGecko](https://img.shields.io/badge/CoinGecko-API-brightgreen?style=flat-square)](https://www.coingecko.com/)
-[![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange?style=flat-square)](https://firebase.google.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?style=flat-square)](https://www.mongodb.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?style=flat-square)](https://vercel.com/)
-
-### 💖 Support the Project
-
-If you find this project helpful, please consider:
-
-- ⭐ Starring the repository
-- 🍴 Forking and contributing
-- 💰 [Sponsoring the project](https://github.com/sponsors/Hari-hara7)
-- ☕ [Buy us a coffee](https://www.buymeacoffee.com/cryptotracker)
-
----
-
-**Made with ❤️ by the Hariharanath**
-
-*Last updated: July 2025*
-
-</div>  
