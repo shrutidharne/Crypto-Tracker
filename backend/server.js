@@ -15,6 +15,9 @@ const app = express();
 // Middlewares
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Backend is running ✅");
+});
 
 // API Routes
 app.use('/api/auth', authRoutes);
