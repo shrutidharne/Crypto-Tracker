@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://crypto-1-iv46.onrender.com/api/blogs";
+const BASE_URL = "https://crypto-tracker-1-lxo3.onrender.com/api/blogs";
 
 export const createBlog = (data: any, token: string) =>
   axios.post(BASE_URL, data, { headers: { Authorization: `Bearer ${token}` } });
