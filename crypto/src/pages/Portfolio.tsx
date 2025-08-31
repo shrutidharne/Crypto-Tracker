@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { db, auth } from "../utils/firebaseConfig";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
-import { FaBitcoin, FaEthereum, FaChartLine, FaSave } from "react-icons/fa";
-
+// import { FaBitcoin, FaEthereum, FaChartLine, FaSave } from "react-icons/fa";
+import { FaChartLine, FaSave } from "react-icons/fa";
 // API URL for CoinGecko
 const COINGECKO_API_URL = "https://api.coingecko.com/api/v3/simple/price?ids=";
 

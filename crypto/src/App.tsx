@@ -43,10 +43,18 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/coins" element={<Coins />} />
-          <Route path="/admin" element={<AddCryptoEventForm />} />
+          {/* <Route path="/admin" element={<AddCryptoEventForm />} /> */}
+          <Route
+  path="/admin"
+  element={<AddCryptoEventForm onEventAdded={() => {}} />}
+/>
           <Route path="/converter" element={<Converter />} />
           <Route path="/news" element={<NewsFeed />} />
-          <Route path="/historical-chart" element={<HistoricalChart />} />
+          {/* <Route path="/historical-chart" element={<HistoricalChart />} /> */}
+          <Route
+  path="/historical-chart"
+  element={<HistoricalChart cryptoId="bitcoin" />}
+/>
           <Route path="/compare" element={<CoinComparison />} />
           <Route path="/calendar" element={<CalendarPage />} />
           <Route path="/learn" element={<LearnCrypto />} />

@@ -1,11 +1,16 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import io from "socket.io-client";
 import notificationIcon from "../assets/Screenshot 2025-01-19 183430.png";//crypto/src/assets/Screenshot 2025-01-19 183430.png
 
 const socket = io("https://crypto-2-t0w6.onrender.com"); 
 
 const CryptoNotification = () => {
-  const [cryptoData, setCryptoData] = useState({});
+  // const [cryptoData, setCryptoData] = useState({});
+  const [cryptoData, setCryptoData] = useState<{
+  bitcoin?: { usd: number };
+  ethereum?: { usd: number };
+}>({});
+
   const [isLoading, setIsLoading] = useState(true);
 
   // Request Notification permission
@@ -16,7 +21,7 @@ const CryptoNotification = () => {
   }, []);
 
  // Send browser notifications
- const sendNotification = (title, body) => {
+ const sendNotification = (title: string, body: string) => {
     if (Notification.permission === "granted") {
       new Notification(title, {
         body,

@@ -2,9 +2,13 @@ import React from "react";
 import { Navigate, RouteProps } from "react-router-dom";
 import { auth } from "../utils/firebaseConfig"; // Import your firebase auth configuration
 
-interface PrivateRouteProps extends RouteProps {
-  element: React.ReactNode;
+// interface PrivateRouteProps extends RouteProps {
+//   element: React.ReactNode;
+// }
+interface PrivateRouteProps {
+  children: JSX.Element;
 }
+
 
 const PrivateRoute: React.FC<PrivateRouteProps> = ({ element }) => {
   // Check if the user is authenticated

@@ -1,6 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import { fetchNews } from "../services/api";
-import { News } from "../services/types";
+import type { News } from "../services/types";
+
 
 const News: FC = () => {
   const [news, setNews] = useState<News[]>([]);

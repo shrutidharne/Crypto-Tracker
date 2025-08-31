@@ -14,7 +14,7 @@ import EmojiPicker from "emoji-picker-react";
 import { getAuth } from "firebase/auth";
 import toast from "react-hot-toast";
 import { Smile, Send, UserCircle2 } from "lucide-react";
-
+import { Theme } from "emoji-picker-react";
 const ChatRoom: FC = () => {
   const [messages, setMessages] = useState<any[]>([]);
   const [newMessage, setNewMessage] = useState("");
@@ -125,7 +125,7 @@ const ChatRoom: FC = () => {
               </div>
               {showEmoji && (
                 <div className="mt-3 bg-[#0f172a] rounded-lg">
-                  <EmojiPicker onEmojiClick={addEmoji} theme="dark" />
+                  <EmojiPicker onEmojiClick={addEmoji} theme="Theme.DARK" />
                 </div>
               )}
             </div>

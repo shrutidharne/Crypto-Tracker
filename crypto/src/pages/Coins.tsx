@@ -85,7 +85,7 @@ const Coins: FC = () => {
           >
             <CoinCard
               coin={coin}
-              onClick={() => handleCoinSelection(coin.id)}
+              // onClick={() => handleCoinSelection(coin.id)}
             />
           </motion.div>
         ))}

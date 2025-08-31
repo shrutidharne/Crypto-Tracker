@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Coin } from "../services/types";
 import { formatCurrency, formatPercentage, formatLargeNumber } from "../utils/formatters";
 import { db, auth } from "../utils/firebaseConfig";
-import { doc, onSnapshot, setDoc, updateDoc, arrayUnion, arrayRemove } from "firebase/firestore";
+import { doc, onSnapshot, setDoc, arrayUnion, arrayRemove } from "firebase/firestore";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 
 interface CoinCardProps {
@@ -11,7 +11,7 @@ interface CoinCardProps {
 }
 
 const CoinCard: FC<CoinCardProps> = ({ coin }) => {
-  const [watchlist, setWatchlist] = useState<string[]>([]);
+  // const [watchlist, setWatchlist] = useState<string[]>([]);
   const [isInWatchlist, setIsInWatchlist] = useState(false);
   const user = auth.currentUser;
 
@@ -22,7 +22,11 @@ const CoinCard: FC<CoinCardProps> = ({ coin }) => {
     const unsubscribe = onSnapshot(docRef, (docSnap) => {
       if (docSnap.exists()) {
         const data = docSnap.data();
-        setWatchlist(data.coins || []);
+       
+        // setWatchlist(data.coins || []);
+        // ✅ replace with (coinId/coin.id jo scope me ho use karo)
+setIsInWatchlist(Array.isArray(data.coins) ? data.coins.includes(coin.id) : false);
+
         setIsInWatchlist(data.coins?.includes(coin.id));
       }
     });
